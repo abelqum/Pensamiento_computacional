@@ -3,17 +3,24 @@ Vamos a identificar los siguientes tipos de datos
 
 NUMEROS ENTEROS : 
 
-      TU RESPUESTA AQUI
+      int
+      
+      5,13,2,154687651,21,2125...
 
 NUMEROS DECIMALES: 
 
-      TU RESPUESTA AQUI
+     float
+     
+     25.6,257896.7,3.1416...
 
 CARACTER : 
 
-      TU RESPUESTA AQUI
+      char
+      a,r,g,s,s,e...
 
 CADENA DE CARACTERES : 
 
-      TU RESPUESTA AQUI
+      string
+      "ciedceic";hola...
+      
     
