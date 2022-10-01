@@ -71,9 +71,78 @@ Algoritmo promedio
 		Fin Si
 	
 	
+
+	
 	
 	
 FinAlgoritmo
 
 
 ![image](https://user-images.githubusercontent.com/113804556/193431390-a1465292-d602-4afc-bddb-d8f586cfe4cf.png)
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+ promedio if añadido
+ 
+ 
+ Algoritmo promedio
+	
+	Definir nombre Como Cadena;
+	
+	Definir cal1,cal2,cal3,cal4,prom Como Real;
+	
+	
+	Escribir "Ingresa el nombre del alumno";
+	Leer nombre;
+	
+	Escribir "Ingresa la calificación 1";
+	Leer cal1;
+	Si(10>cal1 y cal1>0) Entonces
+		
+		Escribir "Ingresa la calificación 2";
+		Leer cal2;
+		Si (10>cal2 y cal2>0) Entonces
+			Escribir "Ingresa la calificación 3";
+			Leer cal3;
+			Si (10>cal3 y cal3>0) Entonces
+				Escribir "Ingresa la calificación 4";
+				Leer cal4;
+				Si (10>cal4 y cal4>0) Entonces
+					prom = (cal1+cal2+cal3+cal4) / 4;
+					Si(prom>=6) Entonces
+						Escribir nombre," tu promedio es: ",prom," por lo tanto APROBASTE";
+					SiNo
+						Escribir nombre," tu promedio es: ",prom," por lo tanto REPROBASTE";
+					Fin Si
+				SiNo
+					Escribir "Error!";
+				Fin Si
+			SiNo
+				Escribir "Error!";
+			Fin Si
+	
+		SiNo
+			Escribir "Error!";
+		Fin Si
+		
+	
+	SiNo
+		Escribir "Error!";
+	Fin Si
+	
+
+	
+FinAlgoritmo
+
+
+
+![image](https://user-images.githubusercontent.com/113804556/193431771-629e41f1-e353-4673-bb74-f58fc3366a72.png)
+
