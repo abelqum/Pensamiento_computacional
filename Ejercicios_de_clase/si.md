@@ -17,3 +17,13 @@ FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/113804556/193431064-3e64deac-8be9-4a4c-865d-cfb8d25d93ad.png)
 ![image](https://user-images.githubusercontent.com/113804556/193431095-67a636f8-aa32-4d79-8e3a-8843875ab168.png)
 
+
+
+
+
+
+
+si - sino
+
+![image](https://user-images.githubusercontent.com/113804556/193431146-97c32d58-58e4-4e58-a979-18378d311f59.png)
+![image](https://user-images.githubusercontent.com/113804556/193431172-374aa1a2-7949-457a-bd77-e5f36a75a926.png)
