@@ -217,3 +217,119 @@ Algoritmo if
 	
 FinAlgoritmo
 
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+..
+.
+.
+.
+.
+
+.
+.
+
+
+Algoritmo vocales
+	
+	Definir letra Como Caracter;
+	
+	
+	Escribir "Ingresa una letra";
+	Leer letra;
+	
+	
+	
+	si (letra== "a" o letra== "A" o letra== "e" o letra== "E" o letra== "i" o letra== "I" o letra== "o" o letra== "O" o letra== "u" o letra== "U") Entonces
+		Escribir "La letra ",letra," es una vocal" ;
+		
+	SiNo
+		Escribir letra," no es una vocal" ;
+			
+	FinSi
+		
+	
+FinAlgoritmo
+.
+
+.
+.
+.
+
+![image](https://user-images.githubusercontent.com/113804556/194728579-f30efcf7-4065-4d56-a10d-ee06e4e2a9e6.png)
+.
+.
+
+.
+.
+..
+
+..
+
+.
+Algoritmo vocales2
+	
+	Definir letra Como Caracter;
+	
+	
+	Escribir "Ingresa una letra";
+	Leer letra;
+	
+	
+	
+	si (letra== "a" o letra== "A" ) Entonces
+		Escribir "La letra ",letra," es una vocal" ;
+		
+	SiNo
+		si(letra== "e" o letra== "E" ) Entonces
+			Escribir "La letra ",letra," es una vocal" ;
+		SiNo
+			si(letra== "i" o letra== "I") Entonces
+				Escribir "La letra ",letra," es una vocal" ;
+			SiNo
+				
+				si (letra== "o" o letra== "O") Entonces
+					Escribir "La letra ",letra," es una vocal" ;
+				SiNo
+					si(letra== "u" o letra== "U")
+						Escribir "La letra ",letra," es una vocal" ;
+					SiNo
+						Escribir letra," no es una vocal" ;
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+		
+		
+	FinSi
+	
+	
+FinAlgoritmo
+
+
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+..
+
+..
+
+.
+.
+![image](https://user-images.githubusercontent.com/113804556/194728590-b871f277-5be8-4272-acfb-9d7c14306747.png)
+
