@@ -80,6 +80,33 @@ FinAlgoritmo
 
 ![image](https://user-images.githubusercontent.com/113804556/193431390-a1465292-d602-4afc-bddb-d8f586cfe4cf.png)
 
+Algoritmo if
+	
+	Definir num como entero;
+	
+	
+	Escribir "Ingresa un número";
+	Leer num;
+	
+	si (num==0) Entonces
+		Escribir "Tu número es neutro";
+		
+	SiNo
+		si(num>0) Entonces
+			Escribir "Tu número es positivo";
+		SiNo
+			Escribir "Tu número es negativo";
+		FinSi
+			
+	FinSi
+		
+	
+FinAlgoritmo
+.
+.
+
+..
+![image](https://user-images.githubusercontent.com/113804556/194727855-6390a589-c07f-4ed5-9c0f-5e81040bccab.png)
 
 
 .
@@ -145,4 +172,21 @@ FinAlgoritmo
 
 
 ![image](https://user-images.githubusercontent.com/113804556/193431771-629e41f1-e353-4673-bb74-f58fc3366a72.png)
+
+.
+.
+
+.
+.
+.
+..
+...
+.
+.
+.
+.
+.
+
+![image](https://user-images.githubusercontent.com/113804556/194727842-b11f297b-2ca8-4114-81df-8cf31902e38f.png)
+
 
