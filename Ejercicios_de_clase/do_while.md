@@ -118,3 +118,97 @@ FinAlgoritmo
  ..
  .
  ![image](https://user-images.githubusercontent.com/113804556/197363955-d89370e7-873e-4103-9417-8fa27745ef34.png)
+ .
+ .
+ .
+ 
+ .
+ .
+ .
+ .
+ .
+ .
+ Algoritmo calcualdora
+	
+	
+	Definir num1,num2, resultado,opciones Como Real;
+	
+	
+	
+	Hacer
+		Escribir  "¿Qué operación deseas realizar?:"
+		Escribir " ";
+		Escribir "Suma = 1";
+		Escribir "Resta = 2";
+		Escribir "Multiplicación = 3";
+		Escribir "División = 4";
+		Escribir "Salir = 5";
+		Leer opciones;
+		
+		Mientras opciones > 5 o opciones < 1 Hacer
+			Escribir "Error, vuelve a intentarlo";
+			Escribir  "¿Qué operación deseas realizar?:"
+			Escribir " ";
+			Escribir "Suma = 1";
+			Escribir "Resta = 2";
+			Escribir "Multiplicación = 3";
+			Escribir "División = 4";
+			Escribir "Salir = 5";
+			Leer opciones;
+		FinMientras
+		
+			
+		Segun opciones Hacer
+			1:
+				Escribir "Introduce el primer número:";
+				Leer num1;
+				Escribir "Introduce el segundo número:";
+				Leer num2;
+				resultado = num1 + num2	;
+				Escribir "Resultado = ",resultado;
+				Escribir " ";
+				Escribir " ";
+			
+			2:
+				Escribir "Introduce el primer número:";
+				Leer num1;
+				Escribir "Introduce el segundo número:";
+				Leer num2;
+				resultado = num1 - num2	;
+				Escribir "Resultado = ",resultado;
+				Escribir " ";
+				Escribir " ";
+			3:
+				Escribir "Introduce el primer número:";
+				Leer num1;
+				Escribir "Introduce el segundo número:";
+				Leer num2;
+				resultado = num1 * num2	;
+				Escribir "Resultado = ",resultado;
+				Escribir " ";
+				Escribir " ";
+			4:
+				Escribir "Introduce el primer número:";
+				Leer num1;
+				Escribir "Introduce el segundo número:";
+				Leer num2;
+				resultado = num1 / num2	;
+				Escribir "Resultado = ",resultado;
+				Escribir " ";
+				Escribir " ";
+		Fin Segun
+		
+	Hasta Que opciones == 5
+	
+
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
